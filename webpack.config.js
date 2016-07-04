@@ -25,6 +25,7 @@ const coreBundles = {
   ],
   // these will be included in the 'aurelia' bundle (except for the above bootstrap packages)
   aurelia: [
+    'aurelia-authentication',
     'aurelia-bootstrapper-webpack',
     'aurelia-binding',
     'aurelia-dependency-injection',
